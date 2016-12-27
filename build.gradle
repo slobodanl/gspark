@@ -31,6 +31,9 @@ configurations {
 
 dependencies {
     provided 'org.apache.spark:spark-core_2.10:1.6.1'
+    provided 'org.apache.spark:spark-streaming_2.10:1.6.1'
+    compile 'com.datastax.spark:spark-cassandra-connector_2.10:1.6.2'
+    compile 'com.datastax.spark:spark-cassandra-connector-java_2.10:1.6.0-M1'
     compile 'org.codehaus.groovy:groovy-all:2.4.7'
     compile ('org.apache.ignite:ignite-core:1.6.0')
     compile ('org.apache.ignite:ignite-log4j:1.6.0')
